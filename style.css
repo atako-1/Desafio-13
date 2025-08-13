@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+html, body{
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+}
+main{
+  position: relative;
+  background-image: url("/imagens/fundo.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-color: yellow;
+  height: 100vh;
+}
+
+section.telefone{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate( -50%, -50%);
+  background-image: url("/imagens/telefone002.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 254px;
+  height: 500px;
+}
+iframe#tela{
+  position: absolute;
+  left: 50%;
+  top: 49.2%;
+  transform: translate( -50%, -50%);
+  
+  width: 215px;
+  height: 350px;
+  
+  
+  
+}
+a{
+  text-decoration: none;
+}
