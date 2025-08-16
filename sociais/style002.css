@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  img{
+    
+    width: 100vw;
+  }
+  a{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
